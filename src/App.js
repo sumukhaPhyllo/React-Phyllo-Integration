@@ -18,6 +18,7 @@ function App() {
   useEffect(() => {
     const PhylloConnect = window.PhylloConnect;
     const phylloConnect = PhylloConnect.initialize(config);
+
     phylloConnect.on(
       "accountConnected",
       (accountId, workplatformId, userId) => {
@@ -56,7 +57,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <button onClick={redirectToPhylloSDK}>
-          Click me to go to phyllo sdk
+          Click me to go to Phyllo sdk
         </button>
       </header>
     </div>
