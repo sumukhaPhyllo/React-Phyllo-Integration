@@ -1,6 +1,6 @@
 # Getting Started with Phyllo on React
 
-### Add PhylloConnect CDN in your html file
+### Add PhylloConnect CDN to your html file
 
 index.html
 
